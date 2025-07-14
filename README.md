@@ -1,12 +1,30 @@
-# React + Vite
+# Jogo de Adivinhação de Palavras (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um jogo simples de adivinhação de palavras desenvolvido em React. O jogador deve tentar advinhar a palavra letra por letra, com um número limitado de tentativas. O jogo inclui categorias, pontuação e telas de início, jogo e fim.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Escolha aleatória de palavras por categoria
+- Tentativas limitadas para adivinhar a palavra
+- Controle de letras já usadas (certas e erradas)
+- Pontuação que aumenta a cada palavra acertada
+- Três telas principais: início, jogo e fim
+- Reset do jogo com pontuação zerada
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tecnologias utilizadas
+
+- React (Hooks, useState, useEffect, useCallback)
+- CSS modular para estilo dos componentes
+- JavaScript moderno (ES6+)
+
+---
+
+## Como rodar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
