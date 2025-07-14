@@ -1,0 +1,37 @@
+/* Variáveis para tema dark no body */
+body.dark {
+  --color: #19bc8b;
+  --hover: #45d0a8;
+}
+
+/* Variáveis para tema light no body */
+body.light {
+  --color: #023047;
+  --hover: #023047;
+}
+
+/* botão offset usa as variáveis do body */
+.offset {
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  color: var(--color);
+  background: none;
+  border: 2px solid var(--color);
+  text-transform: uppercase;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  transition: box-shadow 0.25s, color 0.25s, border-color 0.25s;
+}
+
+.offset:hover,
+.offset:focus {
+  box-shadow: 
+    0 0 0 0 var(--hover),
+    inset 6em 3.5em 0 0 var(--hover);
+  border-color: var(--hover);
+  color: #fff;
+}
