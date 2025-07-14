@@ -94,11 +94,13 @@ function App() {
   useEffect(() => {
       
     const uniqueLetters = [...new Set(letters)];
+
+    if (uniqueLetters.length === 0 || guessedLetters.length === 0) return;
+    
     if (guessedLetters.length === uniqueLetters.length) {
-      setScore((actualScore) => (actualScore += 100));
+      setScore((actualScore) => (actualScore + 100));
       console.log("setscore", setScore)
       startGame();
-
     }
   
   }, [guessedLetters, letters, startGame]);
