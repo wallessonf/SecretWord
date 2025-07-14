@@ -27,4 +27,4 @@ Um jogo simples de adivinhação de palavras desenvolvido em React. O jogador de
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/wallessonf/SecretWord.git
